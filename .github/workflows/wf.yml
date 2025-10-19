@@ -3,7 +3,8 @@ name: ts-snippets TypeScript-Workflow
 
 on:
   push:
-    branches: main
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
