@@ -1,19 +1,18 @@
-
 // The built-in console logging:
 
 console.time()
 
-console.assert(false, "error message")
+console.assert(false, 'error message')
 
-let title = "Animal farm"
-let author = "George Orwell"
+const title = 'Animal farm'
+const author = 'George Orwell'
 
-let book = {
-    title: "Animal farm",
-    author: "George Orwell"
+const book = {
+  title: 'Animal farm',
+  author: 'George Orwell'
 }
 
-let label = "group A"
+const label = 'group A'
 
 console.log({ title, author })
 
@@ -31,8 +30,8 @@ console.timeLog()
 console.trace('Who called upon me?')
 
 console.log(
-    '%c I am a 🪭 of JavaScript',
-    'color: red; font-weight: bold; background-color: purple;'
+  '%c I am a 🪭 of JavaScript',
+  'color: red; font-weight: bold; background-color: purple;'
 )
 
 // Other logging libraries: pino, winston
